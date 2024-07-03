@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1450">
+    <title>유아로움</title>
+
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+
+    <link href="https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo.css" rel="stylesheet">
+    <link href="https://webfontworld.github.io/BMJua/BMJua.css" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!--<div id="top">
+        <div class="top_inner">
+            <ul>
+                <li><a href="#none">MALL</a></li>
+                <li><a href="#none">LOGIN</a></li>
+                <li><a href="#none">JOIN</a></li>
+            </ul>
+        </div>
+    </div>-->
+
+    <div id="header_box">
+        <div id="header">
+            <div class="header_inner">
+                <ul>
+                    <li><a href="./sub_intro_1.html">유아로움<div class="solid"></div></a></li>
+                    <li><a href="./sub_facility.html">둘러보기<div class="solid"></div></a></li>
+                    <li><a href="./index.html"><img src="./images/logo/main_logo.png" alt="메인로고이미지" class="header_main_logo"></a></li>
+                    <li><a href="./sub_reserve.html">예약하기<div class="solid"></div></a></li>
+                    <li><a href="./sub_notice.html">도란도란<div class="solid"></div></a></li>
+                </ul>
+            </div><!--header_inner-->
+        </div><!--header-->
+    </div><!--header_box-->
+
+    <div id="main_banner">
+        <video src="./images/video/main_banner_video.mp4" autoplay loop muted playsinline></video>
+        <img src="./images/bg/main_banner_clouds.png" alt="구름1" class="banner_clouds1">
+        <img src="./images/bg/main_banner_clouds2.png" alt="구름2" class="banner_clouds2">
+    </div><!--main_banner-->
+
+    <div id="welcome">
+        <div class="welcome_inner" data-aos="fade-up" data-aos-duration="1000">
+            <h1 class="title"><img src="./images/logo/sub_logo2.png" alt="서브로고 이미지"> 방문을 환영합니다.</h1>
+            <div class="welcome_box">
+                <!--탭 시작-->
+                <!--탭 메뉴 영역(우리가 실제로 클릭할 부분)
+                각각의 li안에 a태그의 아이디를 가진 tab이 보이는 원리이다.
+                -->
+                <div class="tab_box">
+                    <p class="sub_title">미래지향적 다양한 체험 놀이를 즐길 수 있는<br>
+                        아이들의 놀이터로 구성되어 있습니다.
+                    </p>
+                    <ul class="tabs">
+                        <li><a href="#tab1">튼튼놀이터</a></li>
+                        <li><a href="#tab2">상상놀이터</a></li>
+                        <li><a href="#tab3">어울림터</a></li>
+                        <li><a href="#tab4">자연놀이터</a></li>
+                    </ul>
+                </div>
+                
+
+                <!--탭 콘텐츠 영역(tabs를 눌렀을때 변화할 내용들이 들어있는 곳) 모든 tab내용은, 각각 다른아이디를 갖고 있어야 하고, 같은 tab-content라는 클래스를 가지고 있어야 합니다.-->
+                <div class="tab_container">
+                    <div id="tab1" class="tab_content">
+                        <!--Content-->
+                        <!-- Swiper -->
+                        <div class="swiper facility_intro">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="./images/facility/F1_net.jpg" alt="튼튼놀이터 이미지1">
+                                </div><!--swiper-slide-->
+                                <div class="swiper-slide">
+                                    <img src="./images/facility/F1_playground01.jpg" alt="튼튼놀이터 이미지2">
+                                </div><!--swiper-slide-->
+                                <div class="swiper-slide">
+                                    <img src="./images/facility/F1_playground02.jpg" alt="튼튼놀이터 이미지3">
+                                </div><!--swiper-slide-->
+                                <div class="swiper-slide">
+                                    <img src="./images/facility/F1_playground03.jpg" alt="튼튼놀이터 이미지4">
+                                </div><!--swiper-slide-->
+                            </div><!--swiper-wrapper-->
+                            <div class="swiper-button-next btn_next btn_next_1"></div>
+                            <div class="swiper-button-prev btn_prev btn_prev_1"></div>
+                        </div><!--swiper-->
+                        <div class="facility_text facility_text_1">
+                            <h1>1F</h1>
+                            <div class="text">
+                                <h2>튼튼놀이터</h2>
+                                <p>볼풀장, 그물, 미끄럼틀, 트램폴린 등이 있어 <br>
+                                신체를 움직이며 대근육을 발달시키는데 도움이 되는 곳이에요</p>
+                            </div><!--text-->
+                            <a href="./sub_facility.html">자세히 보기</a>
+                        </div><!--facility_text-->
+                    </div><!--tab1-->
+
+                    <div id="tab2" class="tab_content">
+                        <!--Content-->
+                        <!-- Swiper -->
+                        <div class="swiper facility_intro">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="./images/facility/F2_digital_art.jpg" alt="상상놀이터 이미지1">
+                                </div><!--swiper-slide-->
+                                <div class="swiper-slide">
+                                    <img src="./images/facility/F2_gallery.jpg" alt="상상놀이터 이미지2">
+                                </div><!--swiper-slide-->
+                                <div class="swiper-slide">
+                                    <img src="./images/facility/F2_VRroom01.jpg" alt="상상놀이터 이미지3">
+                                </div><!--swiper-slide-->
+                                <div class="swiper-slide">
+                                    <img src="./images/facility/F2_digital.jpg" alt="상상놀이터 이미지4">
+                                </div><!--swiper-slide-->
+                            </div><!--swiper-wrapper-->
+                            <div class="swiper-button-next btn_next btn_next_2"></div>
+                            <div class="swiper-button-prev btn_prev btn_prev_2"></div>
+                        </div><!--swiper-->
+                        <div class="facility_text facility_text_2">
+                            <h1>2F</h1>
+                            <div class="text">
+                                <h2>상상놀이터</h2>
+                                <p>페인팅존, 미디어아트, VR체험놀이 등을 통해 <br>
+                                아이들의 창의력을 키우고 무한한 잠재력을 실현할 수 있는 공간이에요</p>
+                            </div><!--text-->
+                            <a href="./sub_facility.html">자세히 보기</a>
+                        </div><!--facility_text-->
+                    </div><!--tab2-->
+
+                    <div id="tab3" class="tab_content">
+                        <!--Content-->
+                        <!-- Swiper -->
+                        <div class="swiper facility_intro">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="./images/facility/F3_library04.jpg" alt="어울림터 이미지1">
+                                </div><!--swiper-slide-->
+                                <div class="swiper-slide">
+                                    <img src="./images/facility/F3_rest02.jpg" alt="어울림터 이미지2">
+                                </div><!--swiper-slide-->
+                                <div class="swiper-slide">
+                                    <img src="./images/facility/F3_cafe.jpg" alt="어울림터 이미지3">
+                                </div><!--swiper-slide-->
+                            </div><!--swiper-wrapper-->
+                            <div class="swiper-button-next btn_next btn_next_3"></div>
+                            <div class="swiper-button-prev btn_prev btn_prev_3"></div>
+                        </div><!--swiper-->
+                        <div class="facility_text facility_text_3">
+                            <h1>3F</h1>
+                            <div class="text">
+                                <h2>어울림터</h2>
+                                <p>도서관, 쉼터, 도란도란 카페에서 <br>
+                                아이들과 부모님들이 마음놓고 휴식을 할 수 있는 공간이에요
+                                </p>
+                            </div><!--text-->
+                            <a href="./sub_facility.html">자세히 보기</a>
+                        </div><!--facility_text-->
+                    </div><!--tab3-->
+
+                    <div id="tab4" class="tab_content">
+                        <!--Content-->
+                       <!-- Swiper -->
+                        <div class="swiper facility_intro">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="./images/facility/outside_slide1.jpg" alt="자연놀이터 이미지1">
+                                </div><!--swiper-slide-->
+                                <div class="swiper-slide">
+                                    <img src="./images/facility/outside_slide2.jpg" alt="자연놀이터 이미지1">
+                                </div><!--swiper-slide-->
+                                <div class="swiper-slide">
+                                    <img src="./images/facility/plant.jpg" alt="자연놀이터 이미지2">
+                                </div><!--swiper-slide-->
+                            </div><!--swiper-wrapper-->
+                            <div class="swiper-button-next btn_next btn_next_4"></div>
+                            <div class="swiper-button-prev btn_prev btn_prev_4"></div>
+                        </div><!--swiper-->
+                        <div class="facility_text facility_text_4">
+                            <h1 class="out">실외</h1>
+                            <div class="text">
+                                <h2>자연놀이터</h2>
+                                <p>야외 놀이시설, 텃밭, 공터 등이 있어 <br>
+                                자연친화적인 신체활동과 감수성을 경험할 수 있는 공간이에요
+                                </p>
+                            </div><!--text-->
+                            <a href="./sub_facility.html">자세히 보기</a>
+                        </div><!--facility_text-->
+                    </div><!--tab4-->
+
+                </div><!--tab_container-->
+                <!--탭 끝-->
+            <img src="./images/character/main_welcome_character.png" alt="환영 로고이미지" class="welcome_char" data-aos="zoom-in-down" data-aos-duration="1000" data-aos-delay="200">
+            </div><!--welcome_box-->
+        </div><!--welcome_inner-->
+        <img src="./images/bg/bg_crown2.png" alt="왕관그림" class="bg_crown" data-aos="fade-down">
+    </div><!--welcome-->
+
+    <div id="reserve">
+        <div class="reserve_inner" data-aos="fade-up" data-aos-duration="1000">
+            <h1 class="title">오늘의 <span class="title_color">예약</span> <a href="./sub_reserve.html"><img src="./images/icon/main_reserve_plus_btn.png" alt="더보기 버튼"></a></h1>
+            <p class="sub_title">유아로움의 모든 놀이 공간은 예약을 통해서만 이용 가능합니다.</p>
+            <img src="./images/icon/main_reserve_star.png" alt="별이미지" class="star">
+            <div class="reserve_box">
+                <div class="green_box">
+                    <div class="round round1">
+                        <p class="round_number">1회차</p>
+                        <p class="time">09:30 ~ 11:30</p>
+                        <p class="people">잔여 0명</p>
+                        <div class="round_btn">
+                            <a href="#none">예약마감</a>
+                            <a href="#none">예약마감</a>
+                        </div><!--round_btn-->
+                    </div><!--round-->
+                    <div class="line"></div><!--line-->
+                    <div class="round round2">
+                        <p class="round_number">2회차</p>
+                        <p class="time">13:00 ~ 15:00</p>
+                        <p class="people">잔여 <span>20</span>명</p>
+                        <div class="round_btn">
+                            <a href="#none" class="possible">개인예약</a>
+                            <a href="#none" class="possible">단체예약</a>
+                        </div><!--round_btn-->
+                    </div><!--round-->
+                    <div class="line"></div><!--line-->
+                    <div class="round">
+                        <p class="round_number">3회차</p>
+                        <p class="time">15:30 ~ 17:30</p>
+                        <p class="people">잔여 0명</p>
+                        <div class="round_btn">
+                            <a href="#none">예약마감</a>
+                            <a href="#none">예약마감</a>
+                        </div><!--round_btn-->
+                    </div><!--round-->       
+                </div><!--green_box-->
+                <div class="time_box">
+                    <div class="reserve_icon">
+                    <img src="./images/icon/main_reserve_time.png" alt="운영시간 아이콘">
+                    <p>운영시간</p>
+                    </div><!--reserve_icon-->
+                    <div class="reserve_text">
+                        <p>화~일요일 (주 6일)</p>
+                        <h2>09:30 ~ 17:30</h2>
+                        <p class="lunch">점심시간 |  11:50 ~ 12:50 (1시간)</p>
+                    </div><!--reserve_text-->
+                    <div class="reserve_icon">
+                        <img src="./images/icon/main_reserve_off.png" alt="운영시간 아이콘">
+                        <p>휴관일</p>
+                    </div><!--reserve_icon-->
+                    <div class="reserve_text">
+                        <p>월요일,<br>법정공휴일
+                        </p>
+                    </div><!--reserve_text-->
+                </div><!--time_box-->
+            </div><!--reserve_box-->
+            <ul>
+                <li> <img src="./images/icon/main_reserve_check.png" alt="참고사항 체크 아이콘"><span>1회차</span> : 단체(어린이집 및 유치원) 이용으로 화~금요일 <span>개인이용불가</span></li>
+                <li> <img src="./images/icon/main_reserve_check.png" alt="참고사항 체크 아이콘">단체이용의 경우 <span>아동 10명당 성인인솔자 1명</span> 필히 동반</li>
+            </ul>
+            <a href="#none" class="reserve_btn">
+                <img src="./images/icon/main_reserve_write.png" alt="예약버튼 아이콘"> 예약하기</a><!--reserve_btn-->
+            
+            
+        </div><!--reserve_inner-->
+    </div><!--reserve-->
+
+    <div id="review" data-aos="fade-up" data-aos-duration="1000">
+        <div class="review_inner">
+            <div class="review_title">
+                <h1 class="title">유아로움을 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;만난 <span class="title_color">후기</span>
+                <img src="./images/icon/main_review_cloud.png" alt="구름 그림" class="cloud"></h1>
+            </div><!--review_title-->
+            <div class="review_contents">
+                <div class="review_left_box">
+                    <div class="review_left">
+                        <ul class="review_contents1">
+                            <li class="review_box red_line">
+                                <h4 class="who"><img src="./images/icon/main_review_father.png" alt="학부모 아이콘"> 학부모 후기</h4><!--who-->
+                                <div class="talk">아이부모 모두 안전교육을 들은 뒤 입장하는 점이 좋았어요. 사람이 많아 안전문제가 가장 걱정이 됐었는데, 안전요원들도 충분히 계셔서 안심이 되더라구요.</div><!--talk-->
+                            </li>
+                            <li>
+                                <div class="review_img">
+                                    <img src="./images/play_img/review_img_ballpool.jpg" alt="물감놀이 이미지">
+                                </div><!--img1-->
+                            </li>
+                            <li class="review_box green_line">
+                                <h4 class="who"><img src="./images/icon/main_review_kindergarten.png" alt="유치원 아이콘"> 교사 후기</h4><!--who-->
+                                <div class="talk">넓고 놀거리도 많아 2시간 이용 시간이 부족하게 느껴졌어요. 단체 이용 예약도 잘 되어있고 예약 변경 때문에 자주 연락 드렸는데, 모두 친절하게 안내해 주셔서 너무 감사했어요. 유치원으로 돌아와도 이야기가 끊이질 않았어요^^</div><!--talk-->
+                            </li>
+                            <li>
+                                <div class="review_img">
+                                    <img src="./images/play_img/review_img_sand.jpg" alt="물감놀이 이미지">
+                                </div><!--img1-->
+                            </li>
+                            <li class="review_box blue_line">
+                                <h4 class="who"><img src="./images/icon/main_review_mother.png" alt="학부모 아이콘"> 학부모 후기</h4><!--who-->
+                                <div class="talk">우리 아이가 여기서 열심히 기른 방울토마토가 예쁘게 자라서 뿌듯해하는 아이를 보니 기분이 좋네요. 주말마다 아이와 어떻게 놀아줘야하나 걱정이 많았는데 이렇게 큰 놀이시설이 집 근처에 생겨서 좋아요!</div><!--talk-->
+                            </li>
+                            <li>
+                                <div class="review_img">
+                                    <img src="./images/play_img/plant01.jpg" alt="물감놀이 이미지">
+                                </div><!--img1-->
+                            </li>
+                        </ul>
+                        <ul class="review_contents1">
+                            <li class="review_box red_line">
+                                <h4 class="who"><img src="./images/icon/main_review_father.png" alt="학부모 아이콘"> 학부모 후기</h4><!--who-->
+                                <div class="talk">아이부모 모두 안전교육을 들은 뒤 입장하는 점이 좋았어요. 사람이 많아 안전문제가 가장 걱정이 됐었는데, 안전요원들도 충분히 계셔서 안심이 되더라구요.</div><!--talk-->
+                            </li>
+                            <li>
+                                <div class="review_img">
+                                    <img src="./images/play_img/review_img_ballpool.jpg" alt="물감놀이 이미지">
+                                </div><!--img1-->
+                            </li>
+                            <li class="review_box green_line">
+                                <h4 class="who"><img src="./images/icon/main_review_kindergarten.png" alt="유치원 아이콘"> 교사 후기</h4><!--who-->
+                                <div class="talk">넓고 놀거리도 많아 2시간 이용 시간이 부족하게 느껴졌어요. 단체 이용 예약도 잘 되어있고 예약 변경 때문에 자주 연락 드렸는데, 모두 친절하게 안내해 주셔서 너무 감사했어요. 유치원으로 돌아와도 이야기가 끊이질 않았어요^^</div><!--talk-->
+                            </li>
+                            <li>
+                                <div class="review_img">
+                                    <img src="./images/play_img/review_img_sand.jpg" alt="물감놀이 이미지">
+                                </div><!--img1-->
+                            </li>
+                            <li class="review_box blue_line">
+                                <h4 class="who"><img src="./images/icon/main_review_mother.png" alt="학부모 아이콘"> 학부모 후기</h4><!--who-->
+                                <div class="talk">우리 아이가 여기서 열심히 기른 방울토마토가 예쁘게 자라서 뿌듯해하는 아이를 보니 기분이 좋네요. 주말마다 아이와 어떻게 놀아줘야하나 걱정이 많았는데 이렇게 큰 놀이시설이 집 근처에 생겨서 좋아요!</div><!--talk-->
+                            </li>
+                            <li>
+                                <div class="review_img">
+                                    <img src="./images/play_img/plant01.jpg" alt="물감놀이 이미지">
+                                </div><!--img1-->
+                            </li>
+                        </ul>
+                    </div><!--review_left-->
+                </div><!--review_left_box-->
+                <div class="review_right_box">
+                    <div class="review_right">
+                        <ul class="review_contents2">
+                            <li class="review_box yellow_line">
+                                <h4 class="who"><img src="./images/icon/main_review_father.png" alt="학부모 아이콘"> 학부모 후기</h4><!--who-->
+                                <div class="talk">다수가 이용하는 시설이라 장난감들이 상태가 괜찮을까 걱정도 됐었는데 장난감 종류도 워낙 많고 새로운 장난감들이 수시로 들어오는 것 같더라구요. 새로운 장난감들과 놀이시설들이 마련되어 있어 자주 와도 아이가 재미있어해요!</div><!--talk-->
+                            </li>
+                            <li>
+                                <div class="review_img">
+                                    <img src="./images/play_img/review_img_vr.jpg" alt="물감놀이 이미지">
+                                </div><!--img1-->
+                            </li>
+                            <li class="review_box purple_line">
+                                <h4 class="who"><img src="./images/icon/main_review_mother.png" alt="학부모 아이콘"> 학부모 후기</h4><!--who-->
+                                <div class="talk">평소에 집에서 물감놀이하면 난장판이 되었는데 이곳에서는 마음 편하게 미술 놀이를 할 수 있게 되어서 우리 아이가 너무 좋아했어요. 미디어 아트도 제가 봐도 신기하고 재미있어 보이더라구요. 여기서 사진사분들이 사진도 예쁘게 찍어주시는게 너무 좋았어요. </div><!--talk-->
+                            </li>
+                            <li>
+                                <div class="review_img">
+                                    <img src="./images/play_img/review_img_art.jpg" alt="물감놀이 이미지">
+                                </div><!--img1-->
+                            </li>
+                        </ul>
+                        <ul class="review_contents2">
+                            <li class="review_box yellow_line">
+                                <h4 class="who"><img src="./images/icon/main_review_father.png" alt="학부모 아이콘"> 학부모 후기</h4><!--who-->
+                                <div class="talk">다수가 이용하는 시설이라 장난감들이 상태가 괜찮을까 걱정도 됐었는데 장난감 종류도 워낙 많고 새로운 장난감들이 수시로 들어오는 것 같더라구요. 새로운 장난감들과 놀이시설들이 마련되어 있어 자주 와도 아이가 재미있어해요!</div><!--talk-->
+                            </li>
+                            <li>
+                                <div class="review_img">
+                                    <img src="./images/play_img/review_img_vr.jpg" alt="물감놀이 이미지">
+                                </div><!--img1-->
+                            </li>
+                            <li class="review_box purple_line">
+                                <h4 class="who"><img src="./images/icon/main_review_mother.png" alt="학부모 아이콘"> 학부모 후기</h4><!--who-->
+                                <div class="talk">평소에 집에서 물감놀이하면 난장판이 되었는데 이곳에서는 마음 편하게 미술 놀이를 할 수 있게 되어서 우리 아이가 너무 좋아했어요. 미디어 아트도 제가 봐도 신기하고 재미있어 보이더라구요. 여기서 사진사분들이 사진도 예쁘게 찍어주시는게 너무 좋았어요. </div><!--talk-->
+                            </li>
+                            <li>
+                                <div class="review_img">
+                                    <img src="./images/play_img/review_img_art.jpg" alt="물감놀이 이미지">
+                                </div><!--img1-->
+                            </li>
+                        </ul>
+                    </div><!--review_right-->
+                </div><!--review_right_box-->
+            </div><!--review_contents-->
+            <img src="./images/icon/main_review_star_big.png" alt="큰별 이미지" class="star_big">
+            <img src="./images/icon/main_review_star_small.png" alt="작은별 이미지" class="star_small">
+        </div><!--review_inner-->
+        <img src="./images/bg/main_review_bg_white_top.png" alt="위쪽물결배경" class="top_bg_white">
+        <img src="./images/bg/main_review_bg_white.png" alt="아래쪽물결 배경" class="bottom_bg_white">
+        <img src="./images/icon/main_review_air_balloon.png" alt="열기구 그림" class="ballon">
+    </div><!--review-->
+
+    <div id="news">
+        <div class="news_inner">
+            <div class="notification">
+                <div class="title_box">
+                    <h1 class="title">공지사항</h1>
+                    <div class="more_btn">
+                        <a href="./sub_notice.html"><img src="./images/icon/main_new_arrow.png" alt="더보기 아이콘"></a>
+                    </div><!--more_btn-->
+                </div><!--review_title_box-->
+                <table class="noti_table">
+                    <tr>
+                        <td class="noti_title"><a href="#none">5월 가정의 달 맞이 플리마켓 진행(5/4 ~ 5/5)</a></td>
+                        <td class="noti_date">2024.04.28</td>
+                    </tr>
+                    <tr>
+                        <td class="noti_title"><a href="#none">자연놀이터 보수 공사 안내</a></td>
+                        <td class="noti_date">2024.03.01</td>
+                    </tr>
+                    <tr>
+                        <td class="noti_title"><a href="#none">예약자 필독사항</a></td>
+                        <td class="noti_date">2024.02.02</td>
+                    </tr>
+                </table>
+                <div class="noti_line">
+                    <img src="./images/icon/main_news_notification_line.jpg" alt="공지사항 굵은밑줄">
+                </div><!--noti_line-->
+            </div><!--notification-->
+            <div class="quest">
+                <a href="./sub_notice.html">
+                    <div class="quest_box">
+                    <img src="./images/character/main_news_quest_character.png" alt="질문 로고 캐릭터" class="quest_img">
+                    </div>
+                    <h2 class="quest_title">자주 묻는 질문</h2>
+                </a>
+                
+            </div><!--quest-->
+            <div class="inquiry">
+                <a href="#none">
+                    <div class="inquiry_box">
+                    <img src="./images/character/main_news_inquiry_character.png" alt="문의 로고 캐릭터" class="inquiry_img">
+                    </div>
+                    <h2 class="inquiry_title">문의하기</h2>
+                </a>
+            <img src="./images/character/main_news_notification_character.png" alt="공지사항 로고 이미지" class="noti_char">
+                
+            </div><!--inquiry-->
+        </div><!--news_inner-->
+    </div><!--news-->
+
+    <div id="gallery">
+        <div class="gallery_inner" >
+            <h1 class="title color_title" data-aos="fade-up" data-aos-duration="1000">이렇게 <span>놀았어요</span></h1>
+            <p class="sub_title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">우리 아이들의 사진은 회원 페이지에서 자세히 볼 수 있어요!</p>
+            <img src="./images/icon/main_gallery_camera.png" alt="카메라 아이콘" class="camera">
+            <div class="photo" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                <div class="photo_inner">
+                    <ul>
+                        <li>
+                            <img src="./images/play_img/gallery_art.jpg" alt="놀이사진1">
+                            <div class="white_box">
+                                <!--흰색 글씨 박스-->
+                                <div class="white_text">
+                                    <p><a href="#none">자세히 보기</a></p>
+                                </div><!--white_text-->
+                            </div><!--white_box--></li>
+                        <li><img src="./images/play_img/gallery_outside.jpg" alt="놀이사진2">
+                            <div class="white_box">
+                                <!--흰색 글씨 박스-->
+                                <div class="white_text">
+                                    <p><a href="#none">자세히 보기</a></p>
+                                </div><!--white_text-->
+                            </div><!--white_box--></li>
+                        <li><img src="./images/play_img/gallery_plant01.jpg" alt="놀이사진3">
+                            <div class="white_box">
+                                <!--흰색 글씨 박스-->
+                                <div class="white_text">
+                                    <p><a href="#none">자세히 보기</a></p>
+                                </div><!--white_text-->
+                            </div><!--white_box--></li>
+                        <li><img src="./images/play_img/gallery_play_digital.jpg" alt="놀이사진4">
+                            <div class="white_box">
+                                <!--흰색 글씨 박스-->
+                                <div class="white_text">
+                                    <p><a href="#none">자세히 보기</a></p>
+                                </div><!--white_text-->
+                            </div><!--white_box--></li>
+                        <li><img src="./images/play_img/gallery_vr02.jpg" alt="놀이사진5">
+                            <div class="white_box">
+                                <!--흰색 글씨 박스-->
+                                <div class="white_text">
+                                    <p><a href="#none">자세히 보기</a></p>
+                                </div><!--white_text-->
+                            </div><!--white_box--></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <img src="./images/play_img/gallery_art.jpg" alt="놀이사진1">
+                            <div class="white_box">
+                                <!--흰색 글씨 박스-->
+                                <div class="white_text">
+                                    <p><a href="#none">자세히 보기</a></p>
+                                </div><!--white_text-->
+                            </div><!--white_box--></li>
+                        <li><img src="./images/play_img/gallery_outside.jpg" alt="놀이사진2">
+                            <div class="white_box">
+                                <!--흰색 글씨 박스-->
+                                <div class="white_text">
+                                    <p><a href="#none">자세히 보기</a></p>
+                                </div><!--white_text-->
+                            </div><!--white_box--></li>
+                        <li><img src="./images/play_img/gallery_plant01.jpg" alt="놀이사진3">
+                            <div class="white_box">
+                                <!--흰색 글씨 박스-->
+                                <div class="white_text">
+                                    <p><a href="#none">자세히 보기</a></p>
+                                </div><!--white_text-->
+                            </div><!--white_box--></li>
+                        <li><img src="./images/play_img/gallery_play_digital.jpg" alt="놀이사진4">
+                            <div class="white_box">
+                                <!--흰색 글씨 박스-->
+                                <div class="white_text">
+                                    <p><a href="#none">자세히 보기</a></p>
+                                </div><!--white_text-->
+                            </div><!--white_box--></li>
+                        <li><img src="./images/play_img/gallery_vr02.jpg" alt="놀이사진5">
+                            <div class="white_box">
+                                <!--흰색 글씨 박스-->
+                                <div class="white_text">
+                                    <p><a href="#none">자세히 보기</a></p>
+                                </div><!--white_text-->
+                            </div><!--white_box--></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <img src="./images/play_img/gallery_art.jpg" alt="놀이사진1">
+                            <div class="white_box">
+                                <!--흰색 글씨 박스-->
+                                <div class="white_text">
+                                    <p><a href="#none">자세히 보기</a></p>
+                                </div><!--white_text-->
+                            </div><!--white_box--></li>
+                        <li><img src="./images/play_img/gallery_outside.jpg" alt="놀이사진2">
+                            <div class="white_box">
+                                <!--흰색 글씨 박스-->
+                                <div class="white_text">
+                                    <p><a href="#none">자세히 보기</a></p>
+                                </div><!--white_text-->
+                            </div><!--white_box--></li>
+                        <li><img src="./images/play_img/gallery_plant01.jpg" alt="놀이사진3">
+                            <div class="white_box">
+                                <!--흰색 글씨 박스-->
+                                <div class="white_text">
+                                    <p><a href="#none">자세히 보기</a></p>
+                                </div><!--white_text-->
+                            </div><!--white_box--></li>
+                        <li><img src="./images/play_img/gallery_play_digital.jpg" alt="놀이사진4">
+                            <div class="white_box">
+                                <!--흰색 글씨 박스-->
+                                <div class="white_text">
+                                    <p><a href="#none">자세히 보기</a></p>
+                                </div><!--white_text-->
+                            </div><!--white_box--></li>
+                        <li><img src="./images/play_img/gallery_vr02.jpg" alt="놀이사진5">
+                            <div class="white_box">
+                                <!--흰색 글씨 박스-->
+                                <div class="white_text">
+                                    <p><a href="#none">자세히 보기</a></p>
+                                </div><!--white_text-->
+                            </div><!--white_box--></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <img src="./images/play_img/gallery_art.jpg" alt="놀이사진1">
+                            <div class="white_box">
+                                <!--흰색 글씨 박스-->
+                                <div class="white_text">
+                                    <p><a href="#none">자세히 보기</a></p>
+                                </div><!--white_text-->
+                            </div><!--white_box--></li></li>
+                        <li><img src="./images/play_img/gallery_outside.jpg" alt="놀이사진2">
+                            <div class="white_box">
+                                <!--흰색 글씨 박스-->
+                                <div class="white_text">
+                                    <p><a href="#none">자세히 보기</a></p>
+                                </div><!--white_text-->
+                            </div><!--white_box--></li></li>
+                        <li><img src="./images/play_img/gallery_plant01.jpg" alt="놀이사진3">
+                            <div class="white_box">
+                                <!--흰색 글씨 박스-->
+                                <div class="white_text">
+                                    <p><a href="#none">자세히 보기</a></p>
+                                </div><!--white_text-->
+                            </div><!--white_box--></li></li>
+                        <li><img src="./images/play_img/gallery_play_digital.jpg" alt="놀이사진4">
+                            <div class="white_box">
+                                <!--흰색 글씨 박스-->
+                                <div class="white_text">
+                                    <p><a href="#none">자세히 보기</a></p>
+                                </div><!--white_text-->
+                            </div><!--white_box--></li>
+                        <li><img src="./images/play_img/gallery_vr02.jpg" alt="놀이사진5">
+                            <div class="white_box">
+                                <!--흰색 글씨 박스-->
+                                <div class="white_text">
+                                    <p><a href="#none">자세히 보기</a></p>
+                                </div><!--white_text-->
+                            </div><!--white_box--></li></li>
+                    </ul>
+                </div><!--photo_inner--> 
+            </div><!--photo-->         
+        </div><!--gallery_inner-->
+
+
+        <div id="slogan">
+            <h1>신체와 마음이 자유로워지는 우리아이 놀이터, <span>유아로움</span></h1>
+        </div><!--slogan-->
+    </div><!--gallery-->
+
+    <div id="footer">
+        <div class="footer_inner">
+            <div class="footer_logo">
+                <a href="#"><img src="./images/icon/footer_logo_white.png" alt="푸터로고이미지"></a>
+            </div><!--footer_logo-->
+            <div class="footer_text">
+                <ul>
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">오시는길</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">이용약관</a></li>
+                </ul>
+                <p>[46084] 부산 기장군 기장읍 동부산광광3로 17 <br>
+                    Copyright 2024 BUSAN - UAROUM. All Rights Reserved</p>
+            </div><!--footer_text-->
+            
+            <ol class="footer_sns">
+                <li><a href="#none" class="kakao"></a></li>
+                <li><a href="#none" class="blog"></a></li>
+                <li><a href="#none" class="insta"></a></li>
+                <li><a href="#none" class="youtube"></a></li>
+            </ol><!--footer_sns-->
+        </div><!--footer_inner-->
+    </div><!--footer-->
+
+    <div class="fix_btn">
+        <div class="yellow_btn">
+            <a href="#none"><img src="./images/icon/fix_btn_member.png" alt="회원등록 아이콘"> 회원등록</a>
+        </div><!--yellow_btn-->
+        <div class="yellow_btn">
+            <a href="#none"><img src="./images/icon/fix_btn_reserve_checking.png" alt="예약확인 아이콘"> 예약확인</a>
+        </div><!--yellow_btn-->
+    </div><!--fix_btn-->
+    <div class="blue_btn">
+        <a href="#">TOP</a>
+    </div><!--blue_btn-->
+    
+    
+
+
+
+
+
+
+
+    <!--탭 제이쿼리 라이브러리-->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+		integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="./js/tab.js"></script>
+    <script src="./js/main_reserve_tab.js"></script>
+
+    <script src="./js/header_scroll.js"></script>
+
+
+    <!--facility-->
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".facility_intro", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+  
+  <script>
+        AOS.init();
+      </script>
+
+</body>
+</html>
