@@ -163,6 +163,12 @@ html{
     color: #fff;
 }
 
+
+#intro2_contents{
+    background-image: url(../images/bg/sub_intro2_bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 /*use*/
 .use_inner{
     width: 1320px;

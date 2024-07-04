@@ -163,6 +163,12 @@ html{
     color: #fff;
 }
 
+
+#intro1_contents{
+    background-image: url(../images/bg/sub_intro1_bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 /*intro*/
 .intro_inner{
     width: 1320px;
@@ -191,6 +197,26 @@ html{
     padding-top: 98px;
     text-align: center;
     line-height: 1.5;
+}
+.contents1{
+    position: relative;
+}
+.contents1 .mini_cloud{
+    position: absolute;
+    top: 75px;
+    right: 77px;
+    animation: mini_clouds 2s linear infinite;
+}
+@keyframes mini_clouds{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 .contents2{
     display: flex;
@@ -369,7 +395,7 @@ html{
 .way_inner{
     width: 1320px;
     margin: 0 auto;
-    padding-bottom: 384px;
+    padding-bottom: 463px;
     position: relative;
 }
 .map_character{
@@ -434,7 +460,7 @@ html{
     font-size: 15px;
 }
 .transport{
-    padding-top: 56px;
+    padding-top: 49px;
 }
 .car, .bus, .subway{
     width: 549px;

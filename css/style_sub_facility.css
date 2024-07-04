@@ -178,6 +178,11 @@ html{
     line-height: 1.5;
     text-align: center;
 }
+#facility_contents{
+    background-image: url(../images/bg/sub_facility_bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 .ground_inner{
     width: 1320px;
     margin: 0 auto;
@@ -186,7 +191,7 @@ html{
     padding-top: 229px;
 }
 #ground04{
-    padding-bottom: 384px;
+    padding-bottom: 464px;
 }
 .ground_box_1, .ground_box_2{
     display: flex;

@@ -164,6 +164,11 @@ html{
 }
 
 /*noti*/
+#notice_contents{
+    background-image: url(../images/bg/sub_notice_bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 .noti_inner{
     width: 1320px;
     margin: 0 auto;
@@ -359,7 +364,14 @@ table tr:nth-child(4){
     display: none;
 }
 .answer_mark{
-    padding-right: 10px;
+    padding-right: 30px;
+}
+.answer_box{
+    display: flex;
+}
+.answer_text{
+    line-height: 2.0;
+    padding-top: 5px;
 }
 .plus{
     float: right;
@@ -484,13 +496,15 @@ table tr:nth-child(4){
     background-color: #fff;
     font-size: 20px;
     font-weight: 700;
-    color: #0BB423;
-    padding: 15px 0;
-    padding-left: 30px;
+    padding: 15px 60px 0 30px;
+    text-align: center;
     box-sizing: border-box;
     transition: all 0.5s;
     transform: scaleX(0);
     transform-origin: 230px;
+}
+.call_text a{
+    color: #0BB423;
 }
 .talk_text{ 
     position: absolute;
@@ -503,13 +517,15 @@ table tr:nth-child(4){
     background-color: #fff;
     font-size: 20px;
     font-weight: 700;
-    color: #3E2723;
-    padding: 15px 0;
-    padding-left: 30px;
+    padding: 15px 60px 0 30px;
+    text-align: center;
     box-sizing: border-box;
     transition: all 0.5s;
     transform: scaleX(0);
     transform-origin: 230px;
+}
+.talk_text a{
+    color: #3E2723;
 }
 .map_text{
     position: absolute;
@@ -522,13 +538,15 @@ table tr:nth-child(4){
     background-color: #fff;
     font-size: 20px;
     font-weight: 700;
-    color: #1DAFAA;
-    padding: 15px 0;
-    padding-left: 30px;
+    padding: 15px 60px 0 30px;
+    text-align: center;
     box-sizing: border-box;
     transition: all 0.5s;
     transform: scaleX(0);
     transform-origin: 230px;
+}
+.map_text a{
+    color: #1DAFAA;
 }
 .chat_text{
     position: absolute;
@@ -541,13 +559,15 @@ table tr:nth-child(4){
     background-color: #fff;
     font-size: 20px;
     font-weight: 700;
-    color: #3A4ECF;
-    padding: 15px 0;
-    padding-left: 30px;
+    padding: 15px 60px 0 30px;
+    text-align: center;
     box-sizing: border-box;
     transition: all 0.5s;
     transform: scaleX(0);
     transform-origin: 230px;
+}
+.chat_text a{
+    color: #3A4ECF;
 }
 .call_icon:hover .call_text{
     width: 250px;

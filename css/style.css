@@ -144,6 +144,9 @@ html{
 #welcome{
     overflow: hidden;
     position: relative;
+    background-image: url(../images/bg/main_facility_bg.png);
+    background-repeat: no-repeat;
+    background-position: 9% 81%;
 }
 .bg_crown{
     position: absolute;
@@ -542,8 +545,7 @@ html{
     display: inline-block;
     background-color: #01AAA7;
     color: #fff;
-    padding: 15px 30px;
-    border-radius: 31px;
+    border-radius: 34px;
     position: absolute;
     top: 30px;
     right: 0;
@@ -551,6 +553,20 @@ html{
     font-size: 18px;
     transition: all 0.3s;
     z-index: 50;
+    background-image: url(../images/icon/main_reserve_write.png);
+    background-repeat: no-repeat;
+    background-position: 35px center;
+    width: 184px;
+    height: 68px;
+    padding: 22px 32px 0 76px;
+    box-sizing: border-box;
+    border: 2px solid rgba(1,170,167,0);
+}
+.reserve_btn:hover{
+    background-color: #fff;
+    border: 2px solid #01AAA7;
+    color: #01AAA7;
+    background-image: url(../images/icon/main_reserve_write_green.png);
 }
 .line{
     width: 2px;
@@ -565,7 +581,6 @@ html{
     background-image: url(../images/bg/main_review_bg.jpg);
     padding-top: 250px;
     position: relative;
-    overflow: hidden;
 }
 .review_inner{
     width: 1320px;
@@ -779,11 +794,13 @@ html{
 }
 #news .noti_char{
     position: absolute;
-    left: 150px;
-    bottom: 150px;
+    left: 175px;
+    bottom: 142px;
     z-index: 10;
     transform: rotate(-15deg);
     animation: left_right 2s linear infinite;
+    width: 230px;
+    height: 230px;
 }
 @keyframes left_right{
     0%{
@@ -990,11 +1007,16 @@ html{
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 390px;
+    border-radius: 195px 195px 0 0;
+    overflow: hidden;
+}
+.slogan_inner{
+    width: 1320px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 195px 195px 0 0;
-    overflow: hidden;
+    height: 390px;
 }
 #slogan h1{
     font-size: 40px;

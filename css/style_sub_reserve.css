@@ -177,6 +177,11 @@ html{
     line-height: 1.5;
     text-align: center;
 }
+#reserve_contents{
+    background-image: url(../images/bg/sub_reserve_bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 .reserve_inner{
     width: 1320px;
     margin: 0 auto;
@@ -383,10 +388,25 @@ html{
     display: inline-block;
     padding: 20px 25px;
     background-color: #60ACEF;
-    border-radius: 20px;
+    border-radius: 23px;
     font-size: 22px;
     font-weight: bold;
     color: #fff;
+    transition: all 0.3s;
+    background-image: url(../images/icon/sub_reserve_btn.png);
+    background-repeat: no-repeat;
+    background-position: 26px center;
+    width: 226px;
+    height: 84px;
+    padding: 27px 22px 0 60px;
+    box-sizing: border-box;
+    border: 2px solid rgba(1, 170, 167, 0);
+}
+.reserve_btn a:hover{
+    background-color: #fff;
+    border: 2px solid #60ACEF;
+    color: #60ACEF;
+    background-image: url(../images/icon/sub_reserve_btn_blue.png);
 }
 
 /*cancel*/
@@ -431,16 +451,31 @@ html{
 }
 .cancel_btn{
     text-align: center;
+    padding-top: 35px;
 }
 .cancel_btn a{
     display: inline-block;
     padding: 20px 25px;
     background-color: #EF6E9E;
-    border-radius: 20px;
+    border-radius: 23px;
     font-size: 22px;
     font-weight: bold;
     color: #fff;
-    margin-top: 35px;
+    transition: all 0.3s;
+    background-image: url(../images/icon/sub_reserve_btn.png);
+    background-repeat: no-repeat;
+    background-position: 26px center;
+    width: 226px;
+    height: 84px;
+    padding: 27px 22px 0 60px;
+    box-sizing: border-box;
+    border: 2px solid rgba(1, 170, 167, 0);
+}
+.cancel_btn a:hover{
+    background-color: #fff;
+    border: 2px solid #EF6E9E;
+    color: #EF6E9E;
+    background-image: url(../images/icon/sub_reserve_btn_pink.png);
 }
 
 
