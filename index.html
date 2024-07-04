@@ -265,8 +265,10 @@
                 <li> <img src="./images/icon/main_reserve_check.png" alt="참고사항 체크 아이콘"><span>1회차</span> : 단체(어린이집 및 유치원) 이용으로 화~금요일 <span>개인이용불가</span></li>
                 <li> <img src="./images/icon/main_reserve_check.png" alt="참고사항 체크 아이콘">단체이용의 경우 <span>아동 10명당 성인인솔자 1명</span> 필히 동반</li>
             </ul>
-            <a href="#none" class="reserve_btn">
-                <img src="./images/icon/main_reserve_write.png" alt="예약버튼 아이콘"> 예약하기</a><!--reserve_btn-->
+            <a href="#none" class="reserve_btn">예약하기</a>
+            <!--<a href="#none" class="reserve_btn"><img src="./images/icon/main_reserve_write.png" alt="예약버튼 아이콘"> 예약하기</a>-->
+            
+            
             
             
         </div><!--reserve_inner-->
@@ -396,7 +398,7 @@
 
     <div id="news">
         <div class="news_inner">
-            <div class="notification">
+            <div class="notification" data-aos="fade-right" data-aos-duration="1000">
                 <div class="title_box">
                     <h1 class="title">공지사항</h1>
                     <div class="more_btn">
@@ -421,25 +423,25 @@
                     <img src="./images/icon/main_news_notification_line.jpg" alt="공지사항 굵은밑줄">
                 </div><!--noti_line-->
             </div><!--notification-->
-            <div class="quest">
+            <div class="quest" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">
                 <a href="./sub_notice.html">
                     <div class="quest_box">
                     <img src="./images/character/main_news_quest_character.png" alt="질문 로고 캐릭터" class="quest_img">
                     </div>
                     <h2 class="quest_title">자주 묻는 질문</h2>
                 </a>
-                
             </div><!--quest-->
-            <div class="inquiry">
+            <div class="inquiry" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
                 <a href="#none">
                     <div class="inquiry_box">
                     <img src="./images/character/main_news_inquiry_character.png" alt="문의 로고 캐릭터" class="inquiry_img">
                     </div>
                     <h2 class="inquiry_title">문의하기</h2>
                 </a>
-            <img src="./images/character/main_news_notification_character.png" alt="공지사항 로고 이미지" class="noti_char">
-                
             </div><!--inquiry-->
+            <div class="notice_char_img">
+                <img src="./images/character/main_news_notification_character.png" alt="공지사항 로고 이미지" class="noti_char">
+            </div><!--notice_char_img-->
         </div><!--news_inner-->
     </div><!--news-->
 
@@ -608,7 +610,8 @@
 
 
         <div id="slogan">
-            <h1>신체와 마음이 자유로워지는 우리아이 놀이터, <span>유아로움</span></h1>
+            <div class="slogan_inner"><h1>신체와 마음이 자유로워지는 우리아이 놀이터, <span>유아로움</span></h1></div>
+            
         </div><!--slogan-->
     </div><!--gallery-->
 
