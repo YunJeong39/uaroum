@@ -143,36 +143,10 @@ html{
 /*welcome*/
 #welcome{
     overflow: hidden;
-    position: relative;
     background-image: url(../images/bg/main_facility_bg.png);
     background-repeat: no-repeat;
     background-position: 9% 81%;
 }
-.bg_crown{
-    position: absolute;
-    top: 120px;
-    right: 382px;
-    animation: bg_blink 3s linear infinite;
-}
-@keyframes bg_blink{
-    0%{
-        opacity: 0.3;
-    }
-    25%{
-        opacity: 0.7;
-    }
-    50%{
-        opacity: 1;
-    }
-    75%{
-        opacity: 0.7;
-    }
-    100%{
-        opacity: 0.3;
-    }
-}
-
-
 
 #welcome .welcome_char{
     position: absolute;
@@ -194,6 +168,31 @@ html{
         transform: rotate(0);
     }
 }
+.bg_crown{
+    position: absolute;
+    top: -145px;
+    right: 100px;
+    animation: bg_blink 3s linear infinite;
+}
+@keyframes bg_blink{
+    0%{
+        opacity: 0.3;
+    }
+    25%{
+        opacity: 0.7;
+    }
+    50%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 0.3;
+    }
+}
+
+
 
 .welcome_inner{
     width: 1320px;
@@ -1009,6 +1008,7 @@ html{
     height: 390px;
     border-radius: 195px 195px 0 0;
     overflow: hidden;
+    background-position: center bottom;
 }
 .slogan_inner{
     width: 1320px;
