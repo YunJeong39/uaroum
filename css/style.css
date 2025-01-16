@@ -1,4 +1,13 @@
 @charset "utf-8";
+
+@font-face {
+    font-family: 'BMJUA';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -68,7 +77,7 @@ html{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: 'BMJua';
+    font-family: 'BMJUA';
     font-size: 23px;
     font-weight: 500;
 }
@@ -209,7 +218,7 @@ html{
     padding-right: 20px;
 }
 .title{
-    font-family: 'BMJua';
+    font-family: 'BMJUA';
     font-size: 48px;
     font-weight: normal;
 }
@@ -235,7 +244,7 @@ html{
     color: #737373;
     text-align: center;
     width: 228px;
-    font-family: 'BMJua';
+    font-family: 'BMJUA';
     font-size: 30px;
     margin-bottom: 16px;
     padding: 10px 0;
@@ -280,14 +289,14 @@ html{
     z-index: 10;
 }
 .facility_text h1{
-    font-family: 'BMJua';
+    font-family: 'BMJUA';
     font-size: 50px;
     font-weight: normal;
     padding-left: 50px;
     padding-right: 30px;
 }
 .facility_text h2{
-    font-family: 'BMJua';
+    font-family: 'BMJUA';
     font-size: 35px;
     font-weight: normal;
     padding-bottom: 15px;
@@ -451,7 +460,7 @@ html{
     box-sizing: border-box;
 }
 .round_number{
-    font-family: 'BMJua';
+    font-family: 'BMJUA';
     font-size: 25px;
 }
 .time{
@@ -473,7 +482,7 @@ html{
 }
 .round_btn a{
     display: block;
-    font-family: 'BMJua';
+    font-family: 'BMJUA';
     font-size: 15px;
     background-color: #B2AFA9;
     border: 2px solid #B2AFA9;
@@ -874,7 +883,7 @@ html{
     border-radius: 50%;
 }
 .quest h2, .inquiry h2{
-    font-family: 'BMJua';
+    font-family: 'BMJUA';
     font-size: 40px;
     font-weight: normal;
     padding-top: 20px;
@@ -1024,7 +1033,7 @@ html{
     font-weight: normal;
 }
 #slogan h1 span{
-    font-family: 'BMJua';
+    font-family: 'BMJUA';
     color: #fff;
     font-size: 67px;
 }
